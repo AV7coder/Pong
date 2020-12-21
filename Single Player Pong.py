@@ -1,7 +1,4 @@
 try:
-   #BY @AV7GAMESTER
-    #COMPLETED :)  
-    from PIL import ImageGrab # for saving
 
     import turtle
 
@@ -77,11 +74,6 @@ try:
         y += 20 
         paddle_b.sety(y)
 
-    def save():
-        bbox = (550, 550, 600, 800) 
-        im = ImageGrab.grab(bbox)
-        im.save('saved_image_pong game.png')
-        
   
 
     # Keyboard binding 
@@ -90,8 +82,6 @@ try:
     wn.onkeypress(paddle_b_down, "s")
     wn.onkeypress(paddle_b_down, "Down")
     wn.onkeypress(paddle_b_up, "Up")
-    wn.onkeypress(save, "s")
-
     # Main game loop
     while True:
         wn.update()
