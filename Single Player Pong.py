@@ -3,7 +3,7 @@ try:
     import turtle
 
     wn = turtle.Screen()
-    wn.title("Pong game by @AV7GAMESTER")
+    wn.title("Pong game by @AV7cocer")
     wn.bgcolor("blue")
     wn.setup(width=800, height=600)
     wn.tracer(0)
